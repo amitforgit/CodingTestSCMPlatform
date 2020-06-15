@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRulesEngine\\BusinessRulesEngine.csproj": {}
+  },
+  "projects": {
+    "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRulesEngine\\BusinessRulesEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRulesEngine\\BusinessRulesEngine.csproj",
+        "projectName": "BusinessRulesEngine",
+        "projectPath": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRulesEngine\\BusinessRulesEngine.csproj",
+        "packagesPath": "C:\\Users\\amitkumar.srivastava\\.nuget\\packages\\",
+        "outputPath": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRulesEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amitkumar.srivastava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\BusinessRules.csproj": {
+                "projectPath": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\BusinessRules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\BusinessRules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\BusinessRules.csproj",
+        "projectName": "BusinessRules",
+        "projectPath": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\BusinessRules.csproj",
+        "packagesPath": "C:\\Users\\amitkumar.srivastava\\.nuget\\packages\\",
+        "outputPath": "C:\\Amit\\CodingTestAssignment\\BusinessRulesEngine\\BusinessRules\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amitkumar.srivastava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
